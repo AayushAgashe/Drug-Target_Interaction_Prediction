@@ -4,7 +4,7 @@ This project presents a lightweight Transformer-based deep learning model for pr
 
 ---
 
-## 🔬 Overview
+##  Overview
 
 - **Goal:** Predict continuous binding affinity scores between drug compounds and protein targets
 - **Input:** SMILES + Protein Sequence
@@ -14,7 +14,7 @@ This project presents a lightweight Transformer-based deep learning model for pr
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 1. Concatenated `SMILES + sequence` input
 2. Tokenization using BERT tokenizer (`bert-base-uncased`)
@@ -23,7 +23,7 @@ This project presents a lightweight Transformer-based deep learning model for pr
 
 ---
 
-## 📊 Results
+##  Results
 
 - **Test RMSE:** 0.832
 - Loss curve and top error samples included
